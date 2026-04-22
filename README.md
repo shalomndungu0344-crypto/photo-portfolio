@@ -9,3 +9,8 @@ This is a photography portfolio showcasing different themes of my favourite intr
 https://github.com/shalomndungu0344-crypto/photo-portfolio    
 ## Author
    Shalom Ndung'u
+
+## license
+MIT License
+
+## 
