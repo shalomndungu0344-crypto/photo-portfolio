@@ -13,4 +13,5 @@ https://github.com/shalomndungu0344-crypto/photo-portfolio
 ## license
 MIT License
 
-## 
+## ©Copyright
+©2026 Amaney.All rights reserved.
