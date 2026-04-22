@@ -106,9 +106,12 @@ header p{
     object-fit: cover;
     margin-bottom: 20px;
 }
-
-
-
+#Behind-the-lense p{
+    max-width: 600px;
+    margin:  0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
 
 /* Contact section */
 #contact{
