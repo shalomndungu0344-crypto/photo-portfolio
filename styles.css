@@ -1,162 +1,164 @@
-body{
-    background-color: burlywood;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+body {
+  background-color: burlywood;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
-header{
-    background-color: peachpuff;
-    color: black;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    letter-spacing: 1px;
-    word-spacing: 20px;
-    font-size: larger;
+header {
+  background-color: peachpuff;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  letter-spacing: 1px;
+  word-spacing: 20px;
+  font-size: larger;
 }
-nav a{
-    color: palevioletred;
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    font-weight: 600;
+nav a {
+  color: palevioletred;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
 }
-nav a:hover{
-    color: black;
-    text-decoration: underline;
+nav a:hover {
+  color: black;
+  text-decoration: underline;
 }
-header h1{
-    font-size: 30px;
-    margin-bottom: 10px;
+header h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
-header p{
-    font-size: 20px;
-    margin-top: none;
-    margin-bottom: 0;
-    word-spacing: 0%;
+header p {
+  font-size: 20px;
+  margin-top: none;
+  margin-bottom: 0;
+  word-spacing: 0%;
 }
 /* About section */
-.about{
-    background-color: white;
-    margin: 30px auto;
-    padding: 20px;
-    width: 85%;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+.about {
+  background-color: white;
+  margin: 30px auto;
+  padding: 20px;
+  width: 85%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
-.about h2{
-    color: #2a5298;
-    margin-bottom: 10px;
-    text-align: center;
-    text-decoration: underline;
+.about h2 {
+  color: #2a5298;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
 }
 /* Gallery */
-.gallery{
-    width: 90%;
-    margin: auto;
-    padding: 20px 0;
+.gallery {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
 }
-.gallery h2{
-    text-align: center;
-    margin-bottom: 20px;
-    color: #1e3c72;
-    text-decoration: underline;
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e3c72;
+  text-decoration: underline;
 }
 /* Image Grid */
-.images{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
 }
 /* card */
-.card{
-    background-color: papayawhip;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.card {
+  background-color: papayawhip;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 /* Image */
-.card img{
-    width: 100%;
-    height: 200px;
-    display: block;
-    object-fit: cover;
+.card img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: cover;
 }
 /* TEXT */
-.card p{
-    padding: 10px;
-    font-size: 16px;
+.card p {
+  padding: 10px;
+  font-size: 16px;
 }
 /* Hover Effect */
-.card:hover{
-    transform: scale(1.05);
-    box-shadow: 0 8px  16px rgba(0, 0, 0, 0.2);
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 /* Behind the Lens section */
-#Behind-the-lense{
-    text-align: center;
-    padding: 40px 20px;
+#Behind-the-lense {
+  text-align: center;
+  padding: 40px 20px;
 }
-.BEHIND-THE-LENSE image{
-   display: block;
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        border: solid 2px rgb(145, 56, 183);
+.profile-pic {
+object-fit: cover;
+  height: 155px;
+  width: 160px;
+  border-radius: 50%;
+    align-self: center;
 }
-#Behind-the-lense p{
-    max-width: 600px;
-    margin:  0 auto;
-    font-size: 18px;
-    line-height: 1.6;
+#Behind-the-lense p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 /* Contact section */
-#contact{
-   background-color: wheat;
-   padding: 60px 20px;
+#contact {
+  background-color: wheat;
+  padding: 60px 20px;
 }
 
 /* contact form */
-.contact-form{
-    max-width: 500px;
-    margin:20px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+.contact-form {
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .contact-form input,
-.contact-form textarea{
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 16px;
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
 /* Button */
-.contact-form button{
-    padding: 12px 20px;
-    background-color: palevioletred;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
+.contact-form button {
+  padding: 12px 20px;
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
 }
-.contact-form button:hover{
-    background-color: #d45d9c;
+.contact-form button:hover {
+  background-color: #d45d9c;
 }
 
 /* footer */
-footer{
-   text-align: center;
-    padding: 20px;
-    margin-top: 30px;
-    background: peachpuff;
-    color: black;
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: peachpuff;
+  color: black;
 }
