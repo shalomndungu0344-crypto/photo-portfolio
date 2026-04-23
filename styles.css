@@ -30,6 +30,7 @@ nav a:hover {
 header h1 {
   font-size: 30px;
   margin-bottom: 10px;
+  text-decoration: none
 }
 header p {
   font-size: 20px;
@@ -58,6 +59,7 @@ header p {
   width: 90%;
   margin: auto;
   padding: 20px 0;
+  text-decoration: underline;
 }
 .gallery h2 {
   text-align: center;
@@ -121,6 +123,13 @@ object-fit: cover;
 #contact {
   background-color: wheat;
   padding: 60px 20px;
+
+}
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e3c72;
+  text-decoration: underline;
 }
 
 /* contact form */
